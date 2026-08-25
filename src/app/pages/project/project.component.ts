@@ -20,6 +20,9 @@ import { UbButtonDirective } from '@/app/components/ui/button';
   templateUrl: './project.component.html',
   styleUrls: ['./project.component.css'], // Corrected from styleUrl to styleUrls
 })
+
+
+
 export class ProjectComponent implements OnInit {
   protected readonly routerLinkDirective = RouterLink;
   private readonly masterSrv = inject(MasterService);
